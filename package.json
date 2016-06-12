@@ -1,0 +1,22 @@
+{
+  "name": "jsrobot",
+  "version": "0.0.1",
+  "description": "JavaScript Robotics",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neldevfull/JSRobot.git"
+  },
+  "author": "neldevfull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neldevfull/JSRobot/issues"
+  },
+  "homepage": "https://github.com/neldevfull/JSRobot#readme",
+  "dependencies": {
+    "j5-songs": "0.0.9"
+  }
+}
