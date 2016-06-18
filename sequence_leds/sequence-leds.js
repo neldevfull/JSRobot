@@ -3,13 +3,17 @@ var board = five.Board();
 
 board.on("ready", function() {
     // Create led
-    var array   = new five.Leds([4, 3, 2]);
-    var leds = {
-        led: array,
-        amount: array.length
-    }
+    var array = new five.Leds([4, 3, 2]);
+    var TIME  = 2000;
+    var repet = TIME * array.length;
 
-    ledOnOff(leds, 2000);
+    setInterval(function(){
+        var leds = {
+            led: array,
+            amount: array.length
+        }
+        ledOnOff(leds, TIME);
+    }, repet);
 });
 
 // Recursive for on and off leds
