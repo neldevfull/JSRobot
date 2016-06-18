@@ -2,8 +2,8 @@ var five  = require('johnny-five');
 var board = five.Board();
 
 board.on("ready", function() {
-    // Create led
-    var array = new five.Leds([4, 3, 2]);
+    // Create leds
+    var array = new five.Leds([5, 4, 3, 2]);
     var TIME  = 2000;
     var repet = TIME * array.length;
 
